@@ -70,7 +70,20 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header {
+    display:flex;
+    justify-content: space-evenly;
+}
+header nav {
+    display:flex;
+    justify-content: space-evenly;
+    width: 800px;
+    order:2;
+    margin-top:40px;
+}
+header img {
+    order:1;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
